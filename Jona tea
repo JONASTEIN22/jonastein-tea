@@ -1,0 +1,43 @@
+# TEA Testnet Smart Contract Framework
+
+## Overview
+This is an open-source smart contract framework for the TEA testnet. It provides tools, templates, and utilities to simplify the development, deployment, and testing of smart contracts on the TEA blockchain.
+
+## Features
+- 📜 Pre-built contract templates
+- 🚀 CLI for deployment & testing
+- 🔗 Integration with TEA testnet APIs
+- 🔒 Security best practices
+- 📖 Comprehensive documentation
+
+## Installation
+```sh
+git clone https://github.com/your-repo/tea-smart-contract-framework.git
+cd tea-smart-contract-framework
+npm install
+```
+
+## Usage
+### Deploy a Contract
+```sh
+npx tea-cli deploy path/to/contract
+```
+
+### Run Tests
+```sh
+npx tea-cli test
+```
+
+## Project Structure
+```
+/tea-smart-contract-framework
+├── contracts/        # Smart contract templates
+├── scripts/          # Deployment & automation scripts
+├── cli/              # CLI tool for interacting with contracts
+├── docs/             # Documentation
+├── tests/            # Smart contract tests
+└── README.md         # Project overview
+```
+
+## Contributing
+Feel free to open issues and submit PRs to enhance the framework. 🚀
